@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 90%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 20%;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #000 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 20%;
+    
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #000;
+}
+/* 
+
+.background-ci{
+    background: linear-gradient(151deg, rgb(1, 10, 8) 0%, rgb(2, 65, 48) 100%);
+}
+
+.background-cp{
+    background: linear-gradient(151deg, rgb(1, 10, 8) 0%, rgb(3, 35, 78) 100%);
+} */
+
+
+.card{
+    @apply  w-64 h-80 shadow-md border-baque border rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl 
+}
